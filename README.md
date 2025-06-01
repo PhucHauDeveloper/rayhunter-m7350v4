@@ -12,7 +12,7 @@ You can install Rayhunter easily by downloading and running the installation scr
 
 ### Quick Setup
 
-1. Download the latest release from the [Releases Page](PhucHauDeveloper/rayhunter-tplink-m7350-v4/releases).
+1. Download the latest release from the [Releases Page](https://github.com/PhucHauDeveloper/rayhunter-m7350v4/releases).
 2. Extract the archive.
 3. Open the extracted folder.
 4. Run the `install.cmd` (Windows).
