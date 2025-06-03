@@ -28,9 +28,10 @@ You can now access Rayhunter's Web UI at:
 ### 🚀 What's New in This Fork
 
 This customized fork brings major usability and feature upgrades over the original Rayhunter release:
+✅ Network Expansion (in progress): restore the original code so that M7350 can connect to wifi network and use as a repeater, making it better to use m7350 as a vpn
 
 ✅ OPKG Package Manager Included: 
-Enjoy the flexibility to install whatever you need with 2.8MB of free space remaining. Explore available packages at [Entware Repository](http://bin.entware.net/armv7sf-k3.2/).
+Enjoy the flexibility to install whatever you need with 2.7MB(or more if I automate the job of deleting all unused test and config files left by the firmware writer) of free space remaining. Explore available packages at [Entware Repository](http://bin.entware.net/armv7sf-k3.2/).
 
 ✅ Time Sync & Display Enhancements: 
 The device now syncs time with your computer and displays it on the screen—alongside band, TTL, RSSI, RSRQ, and SNR—making the device more useful at a glance.
@@ -40,7 +41,7 @@ A #: symbol before the band indicates that Rayhunter is active. If it's missing,
 
 ~~✅ Physical Button Toggle for Rayhunter:~~
 ~~Hold the top button for 2 seconds (while the screen is active) to enable or disable Rayhunter—perfect for reset the red line.~~
-(is coming to main branch and mine is no longer a diff)
+(will be on upstream in next version and mine is no longer a diff)
 
 ✅ Improved Security Defaults: 
 SSH is enabled by default after installation, while Telnet is automatically disabled.
@@ -48,7 +49,9 @@ SSH is enabled by default after installation, while Telnet is automatically disa
 ✅ Built-in TTL Modification Tool (ttlset): 
 Easily change TTL values to help bypass carrier tethering restrictions.
 
-✅ Integrated OpenVPN & cURL Support: 
+✅ Integrated OpenVPN, Wireguard & cURL Support: 
 VPN functionality and web tools are ready to go, plus the latest IPS updates are included for better network protection.
-
+Note:
+-OpenVPN configuration file is located at /etc/openvpn/my.ovpn
+-Wireguard configuration file is located at /etc/wireguard/wg0.conf
 📌 These enhancements are designed to improve user experience and security while keeping installation simple and accessible.
