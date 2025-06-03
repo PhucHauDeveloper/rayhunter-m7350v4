@@ -28,6 +28,7 @@ You can now access Rayhunter's Web UI at:
 ### 🚀 What's New in This Fork
 
 This customized fork brings major usability and feature upgrades over the original Rayhunter release:
+
 ✅ Network Expansion (in progress): restore the original code so that M7350 can connect to wifi network and use as a repeater, making it better to use m7350 as a vpn
 
 ✅ OPKG Package Manager Included: 
